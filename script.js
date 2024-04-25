@@ -13,7 +13,7 @@ let p1 = new Promise((resolve, reject)=>{
 	return arr;
 }).then((arr)=>{
 	arr = arr.map((item) =>{
-		return item * 2;
+		return item; 
 	})
 	return arr;
 }).then((arr)=>{
